@@ -9,20 +9,26 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
 </head>
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <nav>
             <menu class="navigation__menu">
-                <li class="home__link">главная</li>
-                <li class="navigation__link">посмотреть лоты</li>
-                <li class="navigation__link">об аукционе</li>               
+                <li class="navigation__menu-item_no-bullit">
+                    <a class="home__link" href="#header">главная</a>
+                </li>
+                <li class="navigation__menu-item">
+                    <a class="navigation__link" href="#lots">посмотреть лоты</a>
+                </li>
+                <li class="navigation__menu-item">
+                    <a class="navigation__link" href="#about">об аукционе</a>
+                </li>               
             </menu>
         </nav>
         <a class="link__image">
             <img src="images/logo.svg" alt="Черный логотип">
         </a>
         <address class="contacts">
-            <a class="concact__link" href="tel:+99995555555">+9 999 555 5555</a>
-            <a class="concact__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+            <a class="contact__link" href="tel:+99995555555">+9 999 555 5555</a>
+            <a class="contact__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
             <p>наб. Принсенграхт 263- 265, Амстердам</p>
         </address>        
     </header>
@@ -42,10 +48,10 @@
             <div class="overlay"></div>
             <div class="discription">
                 <p class="discription-text">Аукцион вещей, в которые никто не верил</p>
-                <button class="bet-button">Сделать ставку</button>
+                <button type="button" class="bet-button">Сделать ставку</button>
             </div>
         </section>
-        <section class="lots">
+        <section id="lots" class="lots">
             <h2 class="lots__heading">лоты</h2>
             <ul class="lots__card-list">
                 <li class="lots__card-list-item">
@@ -78,7 +84,7 @@
             </ul>
             <a class="lots__look-more-link" href="">посмотреть больше</a>
         </section>
-        <section class="about">
+        <section id="about" class="about">
             <div class="about__logo">
                 <img class="about__logo-image" src="images/logo-white.svg" alt="Белый логотип">
             </div>
@@ -93,37 +99,37 @@
         </section>
     </main>
     <footer class="footer">
-        <address class="footer__contacts">
+        <address class="contacts footer__contacts">
             <a class="contact__link" href="tel:+99995555555">+9 999 555 5555</a>
             <a class="contact__link" href="mailto:info@sobaka.ge">info@sobaka.ge</a>
             <p>наб. Принсенграхт 263- 265, Амстердам</p>
-        </address>
+        </address> 
         <nav class="footer__menu">
             <menu class="footer__menu-list">
                 <li class="footer__menu-list-item">
                     <a class="footer__menu-link footer__menu-link_active" href="">главная</a>
                 </li>
                 <li class="footer__menu-list-item">
-                    <a class="footer__menu-link" href="">посмотреть лоты</a>
+                    <a class="footer__menu-link" href="#lots">посмотреть лоты</a>
                 </li>
                 <li class="footer__menu-list-item">
-                    <a class="footer__menu-link" href="">об аукционе</a>
+                    <a class="footer__menu-link" href="#about">об аукционе</a>
                 </li>               
             </menu>
         </nav>
         <menu class="footer__social-list">
             <li class="footer__social-list-item">
-                <a class="footer__social-link" href="">
+                <a class="footer__social-link" href="" target="_blank">
                     <img class="footer__social-icon" src="images/yt.svg" alt="Логотип Youtube">
                 </a>
             </li>
             <li class="footer__social-list-item">
-                <a class="footer__social-link" href="">
+                <a class="footer__social-link" href="" target="_blank">
                     <img class="footer__social-icon" src="images/vk.svg" alt="Логотип VK">
                 </a>
             </li>
             <li class="footer__social-list-item">
-                <a class="footer__social-link" href="">
+                <a class="footer__social-link" href="" target="_blank">
                     <img class="footer__social-icon" src="images/pinterest.svg" alt="Логотип Pinterest">
                 </a>
             </li>
