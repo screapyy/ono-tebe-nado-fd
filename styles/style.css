@@ -23,17 +23,17 @@
     list-style: circle;
 }
 
-.home__link {
-    text-decoration: none;
+.header__link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 .navigation__menu-item_no-bullit {
     list-style: none;
 }
 
-.navigation__link {
-    text-decoration: underline;
-    text-underline-offset: 4px;
+.header__link-active {
+    text-decoration: none;
 }
 
 .contacts {
